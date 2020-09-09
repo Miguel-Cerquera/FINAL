@@ -1,0 +1,191 @@
+body
+{
+	background:url(fondo.jpg);
+	width: 1330px;
+	height: 600px;
+}
+.titulo
+{
+	position: absolute;
+	left: 270px;
+	top:30px;
+	font-family:Aclonica;
+	font-size: 30px;
+	animation-name: titulo;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    color: #ECC526;
+
+}
+@keyframes titulo {
+0% {color:#ECC526;}
+34% {color:#2662EC;}
+77% {color: #EF1C1C;}
+}
+.simon
+{
+	position: absolute;
+	left: 20px;
+	top: 100px; 
+	background:url(simon.jpg);
+	width: 400px;
+	height: 450px;
+	border: ridge black 5px;
+}
+.texto
+{
+	display: none;
+	font-family:Aladin;
+	font-size: 10px;
+	color: black;
+}
+.simon:active .texto
+{
+ 	display: inline-block;
+	 font-family:Aladin;
+	font-size: 30px;
+	color: white;
+}
+.cuadro
+{
+	position: absolute;
+	left: 500px;
+	top: 110px;
+	background: url(admirable.jpg);
+	width: 230px;
+	height: 170px;
+	border-radius: 5%;
+}
+.cuadro:active
+{
+	position: absolute;
+	left: 500px;
+	top: 110px;
+	background: url(admirable2.jpg);
+	width: 800px;
+	height: 450px;
+	border-radius: 5%;
+	z-index: 1;
+}
+.texto1
+{
+		display: none;
+	font-family:Aladin;
+	font-size: 10px;
+	color: transparent;
+}
+.cuadro:active .texto1
+{
+ 	display: inline-block;
+	 font-family:Aladin;
+	font-size: 30px;
+	color: black;
+}
+.cuadro1
+{
+	position: absolute;
+	left: 500px;
+	top: 390px;
+	background: url(guayaquil1.jpg);
+	width: 230px;
+	height: 170px;
+	border-radius: 5%;
+}
+.cuadro1:active
+{
+	position: absolute;
+	left: 500px;
+	top: 110px;
+	background: url(guayaquil.jpg);
+	width: 800px;
+	height: 450px;
+	border-radius: 5%;
+	z-index: 1;
+}
+.texto2
+{
+		display: none;
+	font-family:Aladin;
+	font-size: 10px;
+	color: transparent;
+}
+.cuadro1:active .texto2
+{
+ 	display: inline-block;
+	 font-family:Aladin;
+	font-size: 30px;
+	color: black;
+}
+.cuadro2
+{
+	position: absolute;
+	left: 1060px;
+	top: 110px;
+	background: url(peru.jpg);
+	width: 230px;
+	height: 170px;
+	border-radius: 5%;
+}
+.cuadro2:active
+{
+	position: absolute;
+	left: 500px;
+	top: 110px;
+	background: url(peru1.jpg);
+	width: 800px;
+	height: 450px;
+	border-radius: 5%;
+	z-index: 1;
+}
+.texto3
+{
+		display: none;
+	font-family:Aclonica;
+	font-size: 10px;
+	color: transparent;
+}
+.cuadro2:active .texto3
+{
+ 	display: inline-block;
+	 font-family:Aclonica;
+	font-size: 25px;
+	color: black;
+}
+.cuadro3
+{
+	position: absolute;
+	left: 1060px;
+	top: 390px;
+	background: url(occidente.jpg);
+	width: 230px;
+	height: 170px;
+	border-radius: 5%;
+}
+.cuadro3:active
+{
+	position: absolute;
+	left: 500px;
+	top: 110px;
+	background: url(occidente1.jpg);
+	width: 800px;
+	height: 450px;
+	border-radius: 5%;
+	z-index: 1;
+}
+.texto4
+{
+		display: none;
+	font-family:Aclonica;
+	font-size: 10px;
+	color: transparent;
+}
+.cuadro3:active .texto4
+{
+ 	display: inline-block;
+	 font-family:Aclonica;
+	font-size: 24px;
+	color: black;
+}
+
+
